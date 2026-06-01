@@ -30,6 +30,8 @@ def obter_resposta(texto: str) -> str:
         'cinema': 'Fico feliz em ouvir isso! Qual é o teu filme favorito?',
         'não tenho filme favorito': 'Tudo bem! Há muitos filmes incríveis por aí.',
         'está muito calor': 'Deveria usar protetor solar!',
+        'está muito frio': 'Deveria usar um casaco quente!',
+        'não sei o que escrever': 'Não te preocupes! Podes me perguntar sobre o tempo, horas, ou até mesmo falar sobre os teus hobbies!',
         'gostaria de viajar': 'Boa! Para onde gostarias de ir?',
         'angola': 'Angola é um país lindo! Já visitaste a sua capital, Luanda?',
         'portugal': 'Portugal é um país lindo! Já visitaste Lisboa?',
