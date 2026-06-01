@@ -24,7 +24,16 @@ def obter_resposta(texto: str) -> str:
 
     respostas = {
         ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
-        'como estás': 'Estou bem, obrigado!',
+        'como estás': 'Estou bem, obrigado! E tu?',
+        'também estou bem': 'Fico feliz em ouvir isso! O que fazes para te divertires?',
+        'sair com amigas': 'Isso é ótimo! Qual é a tua atividade favorita que fazes com elas?',
+        'cinema': 'Fico feliz em ouvir isso! Qual é o teu filme favorito?',
+        'não tenho filme favorito': 'Tudo bem! Há muitos filmes incríveis por aí.',
+        'está muito calor': 'Deveria usar protetor solar!',
+        'gostaria de viajar': 'Boa! Para onde gostarias de ir?',
+        'Angola': 'Angola é um país lindo! Já visitaste a sua capital, Luanda?',
+        'Portugal': 'Portugal é um país lindo! Já visitaste Lisboa?',
+        'não visitei': 'Espero que tenhas a oportunidade de visitar em breve!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
     }
 
