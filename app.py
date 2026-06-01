@@ -31,8 +31,8 @@ def obter_resposta(texto: str) -> str:
         'não tenho filme favorito': 'Tudo bem! Há muitos filmes incríveis por aí.',
         'está muito calor': 'Deveria usar protetor solar!',
         'gostaria de viajar': 'Boa! Para onde gostarias de ir?',
-        'Angola': 'Angola é um país lindo! Já visitaste a sua capital, Luanda?',
-        'Portugal': 'Portugal é um país lindo! Já visitaste Lisboa?',
+        'angola': 'Angola é um país lindo! Já visitaste a sua capital, Luanda?',
+        'portugal': 'Portugal é um país lindo! Já visitaste Lisboa?',
         'não visitei': 'Espero que tenhas a oportunidade de visitar em breve!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
     }
